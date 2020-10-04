@@ -2,7 +2,7 @@ defmodule SakaVaultWeb.Router do
   use SakaVaultWeb, :router
 
   pipeline :api do
-    plug CORSPlug, origin: "*"
+    plug CORSPlug, origin: "http://localhost:3000/"
     plug :accepts, ["json"]
   end
 
