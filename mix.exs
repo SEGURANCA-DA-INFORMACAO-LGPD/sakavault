@@ -56,6 +56,9 @@ defmodule SakaVault.MixProject do
       # Phoenix
       {:phoenix, "~> 1.5.0"},
 
+      #CORS
+      {:cors_plug, "~> 1.5"},
+
       # Ecto
       {:phoenix_ecto, "~> 4.1"},
       {:ecto_sql, "~> 3.4.4"},
